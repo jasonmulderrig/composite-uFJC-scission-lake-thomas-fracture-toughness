@@ -1466,7 +1466,7 @@ class FractureToughnessSweepCharacterizer(CompositeuFJCScissionCharacterizer):
             for fcp in filled_contour_plot.collections:
                 fcp.set_edgecolor('face')
             
-            ax1.set_xlabel(r'$\kappa_{\nu}$', fontsize=30)
+            ax1.set_xlabel(r'$\zeta_{\nu}^{char}$', fontsize=30)
             ax1.set_ylabel(r'$\check{\dot{\xi}}_c$', fontsize=30)
             ax1.set_xscale('log')
             ax1.set_yscale('log')
@@ -1555,7 +1555,7 @@ class FractureToughnessSweepCharacterizer(CompositeuFJCScissionCharacterizer):
             for fcp in filled_contour_plot.collections:
                 fcp.set_edgecolor('face')
             
-            ax1.set_xlabel(r'$\kappa_{\nu}$', fontsize=30)
+            ax1.set_xlabel(r'$\zeta_{\nu}^{char}$', fontsize=30)
             ax1.set_ylabel(r'$\check{\dot{\lambda}}_c^{eq}$', fontsize=30)
             ax1.set_xscale('log')
             ax1.set_yscale('log')
