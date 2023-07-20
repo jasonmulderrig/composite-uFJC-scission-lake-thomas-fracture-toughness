@@ -16,7 +16,7 @@ Usage
 
 There are three Python codes in this repository: ``AFM_chain_tensile_test_curve_fit.py``, ``fracture_toughness.py``, and ``fracture_toughness_sweep.py``. Each of these codes creates an object that can perform a "characterization" routine, a "finalization" routine, or both routines (where the characterization routine must preceed the finalization routine). The characterization routine performs a variety of calculations, and saves the results of those calculations in pickle files or text files stored within appropriately named directories (``.\AFM_chain_tensile_test_curve_fit\``, ``.\fracture_toughness\``, and ``.\fracture_toughness_sweep\``). The finalization routine then loads the contents of those pickle files or text files, plots the results, and saves the plots back in the appropriate directory. Before running each Python code, make sure you confirm which routines you want to execute. As a means of precaution, the codes provided in this repository only have the finalization routine activated (with the characterization routine commented out, but this routine can be un-commented out if desired).
 
-These Python codes are written in a parallelized computing fashion, *vis-\`a-vis* the ``mpi4py`` package. In order to run each code, first activate the Python virtual environment, and then execute the following command in the terminal:
+These Python codes are written in a parallelized computing fashion, *vis-à-vis* the ``mpi4py`` package. In order to run each code, first activate the Python virtual environment, and then execute the following command in the terminal:
 
 ::
 
