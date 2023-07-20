@@ -1,1 +1,0 @@
-# composite-uFJC-scission-lake-thomas-fracture-toughness
