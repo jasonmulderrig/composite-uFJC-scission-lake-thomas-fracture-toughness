@@ -52,11 +52,17 @@ class FractureToughnessSweepCharacterizer(CompositeuFJCScissionCharacterizer):
         p.characterizer.kappa_nu_base_val = 1000
 
         chain_mech_resp_list = [100, 500, 1000, 5000, 10000]
+        chain_mech_resp_dim_sweep_indx_list = [0, 62, 88, 150, 176]
 
         chain_mech_resp_zeta_nu_char_list = np.copy(chain_mech_resp_list)
+        chain_mech_resp_zeta_nu_char_dim_sweep_indx_list = np.copy(
+            chain_mech_resp_dim_sweep_indx_list)
         # Reverse the order of the zeta_nu_char list
         chain_mech_resp_zeta_nu_char_list = (
             chain_mech_resp_zeta_nu_char_list[::-1]
+        )
+        chain_mech_resp_zeta_nu_char_dim_sweep_indx_list = (
+            chain_mech_resp_zeta_nu_char_dim_sweep_indx_list[::-1]
         )
         chain_mech_resp_zeta_nu_char_num = (
             len(chain_mech_resp_zeta_nu_char_list)
@@ -73,6 +79,9 @@ class FractureToughnessSweepCharacterizer(CompositeuFJCScissionCharacterizer):
         p.characterizer.chain_mech_resp_zeta_nu_char_list = (
             chain_mech_resp_zeta_nu_char_list
         )
+        p.characterizer.chain_mech_resp_zeta_nu_char_dim_sweep_indx_list = (
+            chain_mech_resp_zeta_nu_char_dim_sweep_indx_list
+        )
         p.characterizer.chain_mech_resp_zeta_nu_char_num = (
             chain_mech_resp_zeta_nu_char_num
         )
@@ -84,6 +93,8 @@ class FractureToughnessSweepCharacterizer(CompositeuFJCScissionCharacterizer):
         )
 
         chain_mech_resp_kappa_nu_list = np.copy(chain_mech_resp_list)
+        chain_mech_resp_kappa_nu_dim_sweep_indx_list = np.copy(
+            chain_mech_resp_dim_sweep_indx_list)
         chain_mech_resp_kappa_nu_num = len(chain_mech_resp_kappa_nu_list)
         chain_mech_resp_kappa_nu_label_list = [
             r'$\kappa_{\nu}='+str(chain_mech_resp_kappa_nu_list[chain_mech_resp_kappa_nu_indx])+'$'
@@ -96,6 +107,9 @@ class FractureToughnessSweepCharacterizer(CompositeuFJCScissionCharacterizer):
 
         p.characterizer.chain_mech_resp_kappa_nu_list = (
             chain_mech_resp_kappa_nu_list
+        )
+        p.characterizer.chain_mech_resp_kappa_nu_dim_sweep_indx_list = (
+            chain_mech_resp_kappa_nu_dim_sweep_indx_list
         )
         p.characterizer.chain_mech_resp_kappa_nu_num = (
             chain_mech_resp_kappa_nu_num
@@ -1216,7 +1230,78 @@ class FractureToughnessSweepCharacterizer(CompositeuFJCScissionCharacterizer):
             save_current_figure(
                 self.savedir, r'$\lambda_c^{eq}$', 30, r'$\xi_c$', 30,
                 "zeta_nu_char-xi_c-vs-lmbda_c_eq")
+            
+            rate_dependent_kappa_nu_overline_epsilon_cnu_diss_hat_crit___check_xi_c_dot_chunk_arr = (
+                np.asarray(
+                    rate_dependent_kappa_nu_overline_epsilon_cnu_diss_hat_crit___check_xi_c_dot_chunk_list)
+            )
+            rate_dependent_check_xi_c_dot_overline_epsilon_cnu_diss_hat_crit___kappa_nu_chunk_arr = (
+                np.transpose(
+                    rate_dependent_kappa_nu_overline_epsilon_cnu_diss_hat_crit___check_xi_c_dot_chunk_arr)
+            )
+            
+            fig = plt.figure()
+            for chain_mech_resp_kappa_nu_indx \
+                in range(cp.chain_mech_resp_kappa_nu_num):
+                chain_mech_resp_kappa_nu_dim_sweep_indx = (
+                    cp.chain_mech_resp_kappa_nu_dim_sweep_indx_list[chain_mech_resp_kappa_nu_indx]
+                )
+                rate_dependent_check_xi_c_dot_overline_epsilon_cnu_diss_hat_crit_list = (
+                    rate_dependent_check_xi_c_dot_overline_epsilon_cnu_diss_hat_crit___kappa_nu_chunk_arr[chain_mech_resp_kappa_nu_dim_sweep_indx]
+                )
+                plt.semilogx(
+                    cp.check_xi_c_dot_list,
+                    rate_dependent_check_xi_c_dot_overline_epsilon_cnu_diss_hat_crit_list,
+                    linestyle='-',
+                    color=cp.chain_mech_resp_kappa_nu_color_list[chain_mech_resp_kappa_nu_indx],
+                    alpha=1, linewidth=2.5,
+                    label=cp.chain_mech_resp_kappa_nu_label_list[chain_mech_resp_kappa_nu_indx])
+            plt.legend(loc='best', fontsize=10)
+            plt.xlim([1e-21, 1e0])
+            plt.xticks([1e-21, 1e-14, 1e-7, 1e0], fontsize=20)
+            plt.ylim([-0.01, 0.51])
+            plt.yticks(fontsize=20)
+            plt.grid(True, alpha=0.25)
+            save_current_figure(
+                self.savedir, r'$\check{\dot{\xi}}_c$', 30,
+                r'$\overline{(\hat{\varepsilon}_{c\nu}^{diss})^{crit}}$', 30,
+                "kappa_nu-overline_epsilon_cnu_diss_hat_crit-vs-check_xi_c_dot")
 
+            rate_dependent_zeta_nu_char_overline_epsilon_cnu_diss_hat_crit___check_xi_c_dot_chunk_arr = (
+                np.asarray(
+                    rate_dependent_zeta_nu_char_overline_epsilon_cnu_diss_hat_crit___check_xi_c_dot_chunk_list)
+            )
+            rate_dependent_check_xi_c_dot_overline_epsilon_cnu_diss_hat_crit___zeta_nu_char_chunk_arr = (
+                np.transpose(
+                    rate_dependent_zeta_nu_char_overline_epsilon_cnu_diss_hat_crit___check_xi_c_dot_chunk_arr)
+            )
+            
+            fig = plt.figure()
+            for chain_mech_resp_zeta_nu_char_indx \
+                in range(cp.chain_mech_resp_zeta_nu_char_num):
+                chain_mech_resp_zeta_nu_char_dim_sweep_indx = (
+                    cp.chain_mech_resp_zeta_nu_char_dim_sweep_indx_list[chain_mech_resp_zeta_nu_char_indx]
+                )
+                rate_dependent_check_xi_c_dot_overline_epsilon_cnu_diss_hat_crit_list = (
+                    rate_dependent_check_xi_c_dot_overline_epsilon_cnu_diss_hat_crit___zeta_nu_char_chunk_arr[chain_mech_resp_zeta_nu_char_dim_sweep_indx]
+                )
+                plt.semilogx(
+                    cp.check_xi_c_dot_list,
+                    rate_dependent_check_xi_c_dot_overline_epsilon_cnu_diss_hat_crit_list,
+                    linestyle='-',
+                    color=cp.chain_mech_resp_zeta_nu_char_color_list[chain_mech_resp_zeta_nu_char_indx],
+                    alpha=1, linewidth=2.5,
+                    label=cp.chain_mech_resp_zeta_nu_char_label_list[chain_mech_resp_zeta_nu_char_indx])
+            plt.legend(loc='best', fontsize=10)
+            plt.xlim([1e-21, 1e0])
+            plt.xticks([1e-21, 1e-14, 1e-7, 1e0], fontsize=20)
+            plt.ylim([-0.01, 0.51])
+            plt.yticks(fontsize=20)
+            plt.grid(True, alpha=0.25)
+            save_current_figure(
+                self.savedir, r'$\check{\dot{\xi}}_c$', 30,
+                r'$\overline{(\hat{\varepsilon}_{c\nu}^{diss})^{crit}}$', 30,
+                "zeta_nu_char-overline_epsilon_cnu_diss_hat_crit-vs-check_xi_c_dot")
 
             overline_epsilon_cnu_diss_hat_crit_contourf_levels_num = 101
             overline_epsilon_cnu_diss_hat_crit_contourf_levels = np.linspace(
