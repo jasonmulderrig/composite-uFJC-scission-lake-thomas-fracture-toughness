@@ -331,68 +331,50 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
         rate_independent_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_epsilon_c_diss_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_g_c__nu___nu_chunk_list_mpi_scatter = []
         rate_independent_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_overline_epsilon_c_diss_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_overline_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_overline_g_c__nu___nu_chunk_list_mpi_scatter = []
         
         rate_independent_LT_full_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_LT_full_zeta_nu_char_epsilon_c_sci_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_LT_full_zeta_nu_char_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_list_mpi_scatter = []
         rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_LT_full_zeta_nu_char_overline_epsilon_c_sci_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_LT_full_zeta_nu_char_overline_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_list_mpi_scatter = []
         
         rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list_mpi_scatter = []
         rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_scatter = []
 
         rate_independent_LT_quarter_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_LT_quarter_zeta_nu_char_epsilon_c_sci_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_LT_quarter_zeta_nu_char_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_list_mpi_scatter = []
         rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_c_sci_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_LT_quarter_zeta_nu_char_overline_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_list_mpi_scatter = []
         
         rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list_mpi_scatter = []
         rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_scatter = []
         
         rate_independent_beyer_2000_f_c_max_tau_b_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_beyer_2000_f_c_max_tau_b_epsilon_c_sci_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_beyer_2000_f_c_max_tau_b_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_list_mpi_scatter = []
         rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_c_sci_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_list_mpi_scatter = []
 
         rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list_mpi_scatter = []
         rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_list_mpi_scatter = []
-        rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_scatter = []
 
         for nu_val in nu_list_mpi_scatter:
             rate_independent_beyer_2000_f_c_max_tau_b_epsilon_cnu_sci_hat_crit = []
             rate_independent_beyer_2000_f_c_max_tau_b_epsilon_c_sci_hat_crit = []
             rate_independent_beyer_2000_f_c_max_tau_b_g_c = []
-            rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu = []
             rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit = []
             rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_c_sci_hat_crit = []
             rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c = []
-            rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu = []
 
             rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c = []
-            rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu = []
             rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c = []
-            rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu = []
 
             rate_independent_single_chain = (
                 RateIndependentScissionCompositeuFJC(nu=nu_val,
@@ -412,12 +394,7 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             rate_independent_epsilon_c_diss_hat_crit_val = (
                 nu_val * rate_independent_epsilon_cnu_diss_hat_crit_val
             )
-            rate_independent_g_c_val = (
-                rate_independent_single_chain.g_c_crit / nu_val
-            )
-            rate_independent_g_c__nu_val = (
-                rate_independent_g_c_val / nu_val
-            )
+            rate_independent_g_c_val = rate_independent_single_chain.g_c_crit
             rate_independent_overline_epsilon_cnu_diss_hat_crit_val = (
                 rate_independent_epsilon_cnu_diss_hat_crit_val / zeta_nu_char
             )
@@ -426,9 +403,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             )
             rate_independent_overline_g_c_val = (
                 rate_independent_g_c_val / zeta_nu_char
-            )
-            rate_independent_overline_g_c__nu_val = (
-                rate_independent_overline_g_c_val / nu_val
             )
 
             rate_independent_LT_full_zeta_nu_char_epsilon_cnu_sci_hat_crit_val = (
@@ -442,9 +416,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 0.5 * A_nu_val * nu_val
                 * rate_independent_LT_full_zeta_nu_char_epsilon_cnu_sci_hat_crit_val
             )
-            rate_independent_LT_full_zeta_nu_char_g_c__nu_val = (
-                rate_independent_LT_full_zeta_nu_char_g_c_val / nu_val
-            )
             rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit_val = (
                 1.
             )
@@ -456,25 +427,14 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 0.5 * A_nu_val * nu_val
                 * rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit_val
             )
-            rate_independent_LT_full_zeta_nu_char_overline_g_c__nu_val = (
-                rate_independent_LT_full_zeta_nu_char_overline_g_c_val / nu_val
-            )
 
             rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c_val = (
                 0.5 * inext_gaussian_A_nu_val * nu_val
                 * rate_independent_LT_full_zeta_nu_char_epsilon_cnu_sci_hat_crit_val
             )
-            rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu_val = (
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c_val
-                / nu_val
-            )
             rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c_val = (
                 0.5 * inext_gaussian_A_nu_val * nu_val
                 * rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit_val
-            )
-            rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu_val = (
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c_val
-                / nu_val
             )
 
             rate_independent_LT_quarter_zeta_nu_char_epsilon_cnu_sci_hat_crit_val = (
@@ -488,9 +448,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 0.5 * A_nu_val * nu_val
                 * rate_independent_LT_quarter_zeta_nu_char_epsilon_cnu_sci_hat_crit_val
             )
-            rate_independent_LT_quarter_zeta_nu_char_g_c__nu_val = (
-                rate_independent_LT_quarter_zeta_nu_char_g_c_val / nu_val
-            )
             rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit_val = (
                 0.25
             )
@@ -502,26 +459,14 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 0.5 * A_nu_val * nu_val
                 * rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit_val
             )
-            rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu_val = (
-                rate_independent_LT_quarter_zeta_nu_char_overline_g_c_val
-                / nu_val
-            )
 
             rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c_val = (
                 0.5 * inext_gaussian_A_nu_val * nu_val
                 * rate_independent_LT_quarter_zeta_nu_char_epsilon_cnu_sci_hat_crit_val
             )
-            rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu_val = (
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c_val
-                / nu_val
-            )
             rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c_val = (
                 0.5 * inext_gaussian_A_nu_val * nu_val
                 * rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit_val
-            )
-            rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu_val = (
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c_val
-                / nu_val
             )
 
             for f_c_max_val in beyer_2000_f_c_max_tau_b_list:
@@ -538,7 +483,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     nu_val * epsilon_cnu_sci_hat_crit_val
                 )
                 g_c_val = 0.5 * A_nu_val * nu_val * epsilon_cnu_sci_hat_crit_val
-                g_c__nu_val = g_c_val / nu_val
                 overline_epsilon_cnu_sci_hat_crit_val = (
                     epsilon_cnu_sci_hat_crit_val / zeta_nu_char
                 )
@@ -549,19 +493,14 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     0.5 * A_nu_val * nu_val
                     * overline_epsilon_cnu_sci_hat_crit_val
                 )
-                overline_g_c__nu_val = overline_g_c_val / nu_val
 
                 inext_gaussian_g_c_val = (
                     0.5 * inext_gaussian_A_nu_val * nu_val
                     * epsilon_cnu_sci_hat_crit_val
                 )
-                inext_gaussian_g_c__nu_val = inext_gaussian_g_c_val / nu_val
                 inext_gaussian_overline_g_c_val = (
                     0.5 * inext_gaussian_A_nu_val * nu_val
                     * overline_epsilon_cnu_sci_hat_crit_val
-                )
-                inext_gaussian_overline_g_c__nu_val = (
-                    inext_gaussian_overline_g_c_val / nu_val
                 )
 
                 rate_independent_beyer_2000_f_c_max_tau_b_epsilon_cnu_sci_hat_crit.append(
@@ -570,25 +509,17 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     epsilon_c_sci_hat_crit_val)
                 rate_independent_beyer_2000_f_c_max_tau_b_g_c.append(
                     g_c_val)
-                rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu.append(
-                    g_c__nu_val)
                 rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit.append(
                     overline_epsilon_cnu_sci_hat_crit_val)
                 rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_c_sci_hat_crit.append(
                     overline_epsilon_c_sci_hat_crit_val)
                 rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c.append(
                     overline_g_c_val)
-                rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu.append(
-                    overline_g_c__nu_val)
                 
                 rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c.append(
                     inext_gaussian_g_c_val)
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu.append(
-                    inext_gaussian_g_c__nu_val)
                 rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c.append(
                     inext_gaussian_overline_g_c_val)
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu.append(
-                    inext_gaussian_overline_g_c__nu_val)
 
             A_nu___nu_chunk_list_mpi_scatter.append(A_nu_val)
             inext_gaussian_A_nu___nu_chunk_list_mpi_scatter.append(
@@ -602,16 +533,12 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_independent_epsilon_c_diss_hat_crit_val)
             rate_independent_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_g_c_val)
-            rate_independent_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_g_c__nu_val)
             rate_independent_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_independent_overline_epsilon_cnu_diss_hat_crit_val)
             rate_independent_overline_epsilon_c_diss_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_independent_overline_epsilon_c_diss_hat_crit_val)
             rate_independent_overline_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_overline_g_c_val)
-            rate_independent_overline_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_overline_g_c__nu_val)
 
             rate_independent_LT_full_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_full_zeta_nu_char_epsilon_cnu_sci_hat_crit_val)
@@ -619,25 +546,17 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_independent_LT_full_zeta_nu_char_epsilon_c_sci_hat_crit_val)
             rate_independent_LT_full_zeta_nu_char_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_full_zeta_nu_char_g_c_val)
-            rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_LT_full_zeta_nu_char_g_c__nu_val)
             rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit_val)
             rate_independent_LT_full_zeta_nu_char_overline_epsilon_c_sci_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_full_zeta_nu_char_overline_epsilon_c_sci_hat_crit_val)
             rate_independent_LT_full_zeta_nu_char_overline_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_full_zeta_nu_char_overline_g_c_val)
-            rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_LT_full_zeta_nu_char_overline_g_c__nu_val)
 
             rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c_val)
-            rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu_val)
             rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c_val)
-            rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu_val)
 
             rate_independent_LT_quarter_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_quarter_zeta_nu_char_epsilon_cnu_sci_hat_crit_val)
@@ -645,25 +564,17 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_independent_LT_quarter_zeta_nu_char_epsilon_c_sci_hat_crit_val)
             rate_independent_LT_quarter_zeta_nu_char_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_quarter_zeta_nu_char_g_c_val)
-            rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_LT_quarter_zeta_nu_char_g_c__nu_val)
             rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit_val)
             rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_c_sci_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_c_sci_hat_crit_val)
             rate_independent_LT_quarter_zeta_nu_char_overline_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_quarter_zeta_nu_char_overline_g_c_val)
-            rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu_val)
 
             rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c_val)
-            rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu_val)
             rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c_val)
-            rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu_val)
 
             rate_independent_beyer_2000_f_c_max_tau_b_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_independent_beyer_2000_f_c_max_tau_b_epsilon_cnu_sci_hat_crit)
@@ -671,25 +582,17 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_independent_beyer_2000_f_c_max_tau_b_epsilon_c_sci_hat_crit)
             rate_independent_beyer_2000_f_c_max_tau_b_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_beyer_2000_f_c_max_tau_b_g_c)
-            rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu)
             rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit)
             rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_c_sci_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_c_sci_hat_crit)
             rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c)
-            rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu)
             
             rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c)
-            rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu)
             rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c)
-            rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu)
         
         A_nu___nu_chunk_list_mpi_split = self.comm.gather(
             A_nu___nu_chunk_list_mpi_scatter, root=0)
@@ -710,8 +613,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
         )
         rate_independent_g_c___nu_chunk_list_mpi_split = self.comm.gather(
             rate_independent_g_c___nu_chunk_list_mpi_scatter, root=0)
-        rate_independent_g_c__nu___nu_chunk_list_mpi_split = self.comm.gather(
-            rate_independent_g_c__nu___nu_chunk_list_mpi_scatter, root=0)
         rate_independent_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_independent_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_scatter,
@@ -725,11 +626,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
         rate_independent_overline_g_c___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_independent_overline_g_c___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
-        rate_independent_overline_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_overline_g_c__nu___nu_chunk_list_mpi_scatter,
                 root=0)
         )
         
@@ -748,11 +644,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_independent_LT_full_zeta_nu_char_g_c___nu_chunk_list_mpi_scatter,
                 root=0)
         )
-        rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
         rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter,
@@ -768,30 +659,15 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_independent_LT_full_zeta_nu_char_overline_g_c___nu_chunk_list_mpi_scatter,
                 root=0)
         )
-        rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
         
         rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list_mpi_scatter,
                 root=0)
         )
-        rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
         rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
-        rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_scatter,
                 root=0)
         )
         
@@ -810,11 +686,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_independent_LT_quarter_zeta_nu_char_g_c___nu_chunk_list_mpi_scatter,
                 root=0)
         )
-        rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
         rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter,
@@ -830,30 +701,15 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_independent_LT_quarter_zeta_nu_char_overline_g_c___nu_chunk_list_mpi_scatter,
                 root=0)
         )
-        rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
         
         rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list_mpi_scatter,
                 root=0)
         )
-        rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
         rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
-        rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_scatter,
                 root=0)
         )
         
@@ -872,11 +728,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_independent_beyer_2000_f_c_max_tau_b_g_c___nu_chunk_list_mpi_scatter,
                 root=0)
         )
-        rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
         rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_scatter,
@@ -892,30 +743,15 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c___nu_chunk_list_mpi_scatter,
                 root=0)
         )
-        rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
         
         rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_list_mpi_scatter,
                 root=0)
         )
-        rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
         rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
-        rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_scatter,
                 root=0)
         )
         
@@ -931,53 +767,39 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             rate_independent_epsilon_cnu_diss_hat_crit___nu_chunk_list = []
             rate_independent_epsilon_c_diss_hat_crit___nu_chunk_list = []
             rate_independent_g_c___nu_chunk_list = []
-            rate_independent_g_c__nu___nu_chunk_list = []
             rate_independent_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list = []
             rate_independent_overline_epsilon_c_diss_hat_crit___nu_chunk_list = []
             rate_independent_overline_g_c___nu_chunk_list = []
-            rate_independent_overline_g_c__nu___nu_chunk_list = []
             
             rate_independent_LT_full_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_list = []
             rate_independent_LT_full_zeta_nu_char_epsilon_c_sci_hat_crit___nu_chunk_list = []
             rate_independent_LT_full_zeta_nu_char_g_c___nu_chunk_list = []
-            rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_list = []
             rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list = []
             rate_independent_LT_full_zeta_nu_char_overline_epsilon_c_sci_hat_crit___nu_chunk_list = []
             rate_independent_LT_full_zeta_nu_char_overline_g_c___nu_chunk_list = []
-            rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_list = []
             
             rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list = []
-            rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list = []
             rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list = []
-            rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list = []
 
             rate_independent_LT_quarter_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_list = []
             rate_independent_LT_quarter_zeta_nu_char_epsilon_c_sci_hat_crit___nu_chunk_list = []
             rate_independent_LT_quarter_zeta_nu_char_g_c___nu_chunk_list = []
-            rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_list = []
             rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list = []
             rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_c_sci_hat_crit___nu_chunk_list = []
             rate_independent_LT_quarter_zeta_nu_char_overline_g_c___nu_chunk_list = []
-            rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_list = []
             
             rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list = []
-            rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list = []
             rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list = []
-            rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list = []
             
             rate_independent_beyer_2000_f_c_max_tau_b_epsilon_cnu_sci_hat_crit___nu_chunk_list = []
             rate_independent_beyer_2000_f_c_max_tau_b_epsilon_c_sci_hat_crit___nu_chunk_list = []
             rate_independent_beyer_2000_f_c_max_tau_b_g_c___nu_chunk_list = []
-            rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_list = []
             rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list = []
             rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_c_sci_hat_crit___nu_chunk_list = []
             rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c___nu_chunk_list = []
-            rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_list = []
 
             rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_list = []
-            rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list = []
             rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_list = []
-            rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list = []
 
             for proc_indx in range(self.comm_size):
                 for nu_chunk_indx in range(cp.nu_num_list_mpi_split[proc_indx]):
@@ -1000,9 +822,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     rate_independent_g_c___nu_chunk_val = (
                         rate_independent_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_independent_g_c__nu___nu_chunk_val = (
-                        rate_independent_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
                     rate_independent_overline_epsilon_cnu_diss_hat_crit___nu_chunk_val = (
                         rate_independent_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
@@ -1011,9 +830,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     )
                     rate_independent_overline_g_c___nu_chunk_val = (
                         rate_independent_overline_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
-                    rate_independent_overline_g_c__nu___nu_chunk_val = (
-                        rate_independent_overline_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
 
                     rate_independent_LT_full_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_val = (
@@ -1025,9 +841,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     rate_independent_LT_full_zeta_nu_char_g_c___nu_chunk_val = (
                         rate_independent_LT_full_zeta_nu_char_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_val = (
-                        rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
                     rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_val = (
                         rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
@@ -1037,21 +850,12 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     rate_independent_LT_full_zeta_nu_char_overline_g_c___nu_chunk_val = (
                         rate_independent_LT_full_zeta_nu_char_overline_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_val = (
-                        rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
 
                     rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_val = (
                         rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_val = (
-                        rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
                     rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_val = (
                         rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
-                    rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_val = (
-                        rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
 
                     rate_independent_LT_quarter_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_val = (
@@ -1063,9 +867,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     rate_independent_LT_quarter_zeta_nu_char_g_c___nu_chunk_val = (
                         rate_independent_LT_quarter_zeta_nu_char_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_val = (
-                        rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
                     rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_val = (
                         rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
@@ -1075,21 +876,12 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     rate_independent_LT_quarter_zeta_nu_char_overline_g_c___nu_chunk_val = (
                         rate_independent_LT_quarter_zeta_nu_char_overline_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_val = (
-                        rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
 
                     rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_val = (
                         rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_val = (
-                        rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
                     rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_val = (
                         rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
-                    rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_val = (
-                        rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
 
                     rate_independent_beyer_2000_f_c_max_tau_b_epsilon_cnu_sci_hat_crit___nu_chunk_val = (
@@ -1101,9 +893,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     rate_independent_beyer_2000_f_c_max_tau_b_g_c___nu_chunk_val = (
                         rate_independent_beyer_2000_f_c_max_tau_b_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_val = (
-                        rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
                     rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit___nu_chunk_val = (
                         rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
@@ -1113,21 +902,12 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c___nu_chunk_val = (
                         rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_val = (
-                        rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
 
                     rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_val = (
                         rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_val = (
-                        rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
                     rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_val = (
                         rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_val = (
-                        rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
 
                     A_nu___nu_chunk_list.append(A_nu___nu_chunk_val)
@@ -1142,16 +922,12 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                         rate_independent_epsilon_c_diss_hat_crit___nu_chunk_val)
                     rate_independent_g_c___nu_chunk_list.append(
                         rate_independent_g_c___nu_chunk_val)
-                    rate_independent_g_c__nu___nu_chunk_list.append(
-                        rate_independent_g_c__nu___nu_chunk_val)
                     rate_independent_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list.append(
                         rate_independent_overline_epsilon_cnu_diss_hat_crit___nu_chunk_val)
                     rate_independent_overline_epsilon_c_diss_hat_crit___nu_chunk_list.append(
                         rate_independent_overline_epsilon_c_diss_hat_crit___nu_chunk_val)
                     rate_independent_overline_g_c___nu_chunk_list.append(
                         rate_independent_overline_g_c___nu_chunk_val)
-                    rate_independent_overline_g_c__nu___nu_chunk_list.append(
-                        rate_independent_overline_g_c__nu___nu_chunk_val)
 
                     rate_independent_LT_full_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_list.append(
                         rate_independent_LT_full_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_val)
@@ -1159,25 +935,17 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                         rate_independent_LT_full_zeta_nu_char_epsilon_c_sci_hat_crit___nu_chunk_val)
                     rate_independent_LT_full_zeta_nu_char_g_c___nu_chunk_list.append(
                         rate_independent_LT_full_zeta_nu_char_g_c___nu_chunk_val)
-                    rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_list.append(
-                        rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_val)
                     rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list.append(
                         rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_val)
                     rate_independent_LT_full_zeta_nu_char_overline_epsilon_c_sci_hat_crit___nu_chunk_list.append(
                         rate_independent_LT_full_zeta_nu_char_overline_epsilon_c_sci_hat_crit___nu_chunk_val)
                     rate_independent_LT_full_zeta_nu_char_overline_g_c___nu_chunk_list.append(
                         rate_independent_LT_full_zeta_nu_char_overline_g_c___nu_chunk_val)
-                    rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_list.append(
-                        rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_val)
 
                     rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list.append(
                         rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_val)
-                    rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list.append(
-                        rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_val)
                     rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list.append(
                         rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_val)
-                    rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list.append(
-                        rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_val)
                     
                     rate_independent_LT_quarter_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_list.append(
                         rate_independent_LT_quarter_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_val)
@@ -1185,25 +953,17 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                         rate_independent_LT_quarter_zeta_nu_char_epsilon_c_sci_hat_crit___nu_chunk_val)
                     rate_independent_LT_quarter_zeta_nu_char_g_c___nu_chunk_list.append(
                         rate_independent_LT_quarter_zeta_nu_char_g_c___nu_chunk_val)
-                    rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_list.append(
-                        rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_val)
                     rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list.append(
                         rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_val)
                     rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_c_sci_hat_crit___nu_chunk_list.append(
                         rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_c_sci_hat_crit___nu_chunk_val)
                     rate_independent_LT_quarter_zeta_nu_char_overline_g_c___nu_chunk_list.append(
                         rate_independent_LT_quarter_zeta_nu_char_overline_g_c___nu_chunk_val)
-                    rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_list.append(
-                        rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_val)
 
                     rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list.append(
                         rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_val)
-                    rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list.append(
-                        rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_val)
                     rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list.append(
                         rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_val)
-                    rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list.append(
-                        rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_val)
 
                     rate_independent_beyer_2000_f_c_max_tau_b_epsilon_cnu_sci_hat_crit___nu_chunk_list.append(
                         rate_independent_beyer_2000_f_c_max_tau_b_epsilon_cnu_sci_hat_crit___nu_chunk_val)
@@ -1211,25 +971,17 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                         rate_independent_beyer_2000_f_c_max_tau_b_epsilon_c_sci_hat_crit___nu_chunk_val)
                     rate_independent_beyer_2000_f_c_max_tau_b_g_c___nu_chunk_list.append(
                         rate_independent_beyer_2000_f_c_max_tau_b_g_c___nu_chunk_val)
-                    rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_list.append(
-                        rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_val)
                     rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list.append(
                         rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit___nu_chunk_val)
                     rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_c_sci_hat_crit___nu_chunk_list.append(
                         rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_c_sci_hat_crit___nu_chunk_val)
                     rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c___nu_chunk_list.append(
                         rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c___nu_chunk_val)
-                    rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_list.append(
-                        rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_val)
                     
                     rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_list.append(
                         rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_val)
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list.append(
-                        rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_val)
                     rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_list.append(
                         rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_val)
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list.append(
-                        rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_val)
             
             save_pickle_object(
                 self.savedir, A_nu___nu_chunk_list,
@@ -1252,9 +1004,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_independent_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_g_c___nu_chunk_list")
             save_pickle_object(
-                self.savedir, rate_independent_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_g_c__nu___nu_chunk_list")
-            save_pickle_object(
                 self.savedir,
                 rate_independent_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list,
                 data_file_prefix+"-rate_independent_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list")
@@ -1265,10 +1014,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             save_pickle_object(
                 self.savedir, rate_independent_overline_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_overline_g_c___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
-                rate_independent_overline_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_overline_g_c__nu___nu_chunk_list")
             
             save_pickle_object(
                 self.savedir, rate_independent_LT_full_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_list,
@@ -1280,9 +1025,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 self.savedir, rate_independent_LT_full_zeta_nu_char_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_g_c___nu_chunk_list")
             save_pickle_object(
-                self.savedir, rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_list")
-            save_pickle_object(
                 self.savedir,
                 rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list,
                 data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list")
@@ -1293,26 +1035,14 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             save_pickle_object(
                 self.savedir, rate_independent_LT_full_zeta_nu_char_overline_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_overline_g_c___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
-                rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_list")
             
             save_pickle_object(
                 self.savedir, rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list")
             save_pickle_object(
                 self.savedir,
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
                 rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list")
             
             save_pickle_object(
                 self.savedir, rate_independent_LT_quarter_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_list,
@@ -1324,9 +1054,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 self.savedir, rate_independent_LT_quarter_zeta_nu_char_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_g_c___nu_chunk_list")
             save_pickle_object(
-                self.savedir, rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_list")
-            save_pickle_object(
                 self.savedir,
                 rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list,
                 data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list")
@@ -1337,26 +1064,14 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             save_pickle_object(
                 self.savedir, rate_independent_LT_quarter_zeta_nu_char_overline_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_overline_g_c___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
-                rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_list")
             
             save_pickle_object(
                 self.savedir, rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list")
             save_pickle_object(
                 self.savedir,
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
                 rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list")
             
             save_pickle_object(
                 self.savedir, rate_independent_beyer_2000_f_c_max_tau_b_epsilon_cnu_sci_hat_crit___nu_chunk_list,
@@ -1369,9 +1084,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_independent_beyer_2000_f_c_max_tau_b_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_g_c___nu_chunk_list")
             save_pickle_object(
-                self.savedir, rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_list")
-            save_pickle_object(
                 self.savedir,
                 rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list,
                 data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list")
@@ -1382,25 +1094,14 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             save_pickle_object(
                 self.savedir, rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
-                rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_list")
             
             save_pickle_object(
                 self.savedir,
                 rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_list")
             save_pickle_object(
-                self.savedir, rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list")
-            save_pickle_object(
                 self.savedir, rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list")
         
         self.comm.Barrier()
         
@@ -1416,21 +1117,17 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
         rate_dependent_frc_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_dependent_frc_cntrld_AFM_exprmts_epsilon_c_diss_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_dependent_frc_cntrld_AFM_exprmts_g_c___nu_chunk_list_mpi_scatter = []
-        rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list_mpi_scatter = []
         rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list_mpi_scatter = []
-        rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list_mpi_scatter = []
 
         for nu_val in nu_list_mpi_scatter:
             rate_dependent_frc_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit = []
             rate_dependent_frc_cntrld_AFM_exprmts_epsilon_c_diss_hat_crit = []
             rate_dependent_frc_cntrld_AFM_exprmts_g_c = []
-            rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu = []
             rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit = []
             rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit = []
             rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c = []
-            rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu = []
 
             rate_dependent_single_chain = (
                 RateDependentScissionCompositeuFJC(nu=nu_val,
@@ -1503,9 +1200,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 g_c_val = (
                     0.5 * A_nu_val * nu_val * epsilon_cnu_diss_hat_crit_val
                 )
-                g_c__nu_val = (
-                    0.5 * A_nu_val * epsilon_cnu_diss_hat_crit_val
-                )
                 overline_epsilon_cnu_diss_hat_crit_val = (
                     epsilon_cnu_diss_hat_crit_val / zeta_nu_char
                 )
@@ -1516,25 +1210,18 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     0.5 * A_nu_val * nu_val
                     * overline_epsilon_cnu_diss_hat_crit_val
                 )
-                overline_g_c__nu_val = (
-                    0.5 * A_nu_val * overline_epsilon_cnu_diss_hat_crit_val
-                )
                 
                 rate_dependent_frc_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit.append(
                     epsilon_cnu_diss_hat_crit_val)
                 rate_dependent_frc_cntrld_AFM_exprmts_epsilon_c_diss_hat_crit.append(
                     epsilon_c_diss_hat_crit_val)
                 rate_dependent_frc_cntrld_AFM_exprmts_g_c.append(g_c_val)
-                rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu.append(
-                    g_c__nu_val)
                 rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit.append(
                     overline_epsilon_cnu_diss_hat_crit_val)
                 rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit.append(
                     overline_epsilon_c_diss_hat_crit_val)
                 rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c.append(
                     overline_g_c_val)
-                rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu.append(
-                    overline_g_c__nu_val)
             
             rate_dependent_frc_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_dependent_frc_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit)
@@ -1542,16 +1229,12 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_dependent_frc_cntrld_AFM_exprmts_epsilon_c_diss_hat_crit)
             rate_dependent_frc_cntrld_AFM_exprmts_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_dependent_frc_cntrld_AFM_exprmts_g_c)
-            rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu)
             rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit)
             rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit)
             rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c)
-            rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu)
         
         rate_dependent_frc_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_split = (
             self.comm.gather(
@@ -1566,11 +1249,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
         rate_dependent_frc_cntrld_AFM_exprmts_g_c___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_dependent_frc_cntrld_AFM_exprmts_g_c___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
-        rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list_mpi_scatter,
                 root=0)
         )
         rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_split = (
@@ -1588,11 +1266,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list_mpi_scatter,
                 root=0)
         )
-        rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
         
         self.comm.Barrier()
         
@@ -1603,21 +1276,17 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
         rate_dependent_strn_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_dependent_strn_cntrld_AFM_exprmts_epsilon_c_diss_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_dependent_strn_cntrld_AFM_exprmts_g_c___nu_chunk_list_mpi_scatter = []
-        rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list_mpi_scatter = []
         rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit___nu_chunk_list_mpi_scatter = []
         rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list_mpi_scatter = []
-        rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list_mpi_scatter = []
 
         for nu_val in nu_list_mpi_scatter:
             rate_dependent_strn_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit = []
             rate_dependent_strn_cntrld_AFM_exprmts_epsilon_c_diss_hat_crit = []
             rate_dependent_strn_cntrld_AFM_exprmts_g_c = []
-            rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu = []
             rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit = []
             rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit = []
             rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c = []
-            rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu = []
 
             rate_dependent_single_chain = (
                 RateDependentScissionCompositeuFJC(nu=nu_val,
@@ -1693,9 +1362,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 g_c_val = (
                     0.5 * A_nu_val * nu_val * epsilon_cnu_diss_hat_crit_val
                 )
-                g_c__nu_val = (
-                    0.5 * A_nu_val * epsilon_cnu_diss_hat_crit_val
-                )
                 overline_epsilon_cnu_diss_hat_crit_val = (
                     epsilon_cnu_diss_hat_crit_val / zeta_nu_char
                 )
@@ -1706,25 +1372,18 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     0.5 * A_nu_val * nu_val
                     * overline_epsilon_cnu_diss_hat_crit_val
                 )
-                overline_g_c__nu_val = (
-                    0.5 * A_nu_val * overline_epsilon_cnu_diss_hat_crit_val
-                )
                 
                 rate_dependent_strn_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit.append(
                     epsilon_cnu_diss_hat_crit_val)
                 rate_dependent_strn_cntrld_AFM_exprmts_epsilon_c_diss_hat_crit.append(
                     epsilon_c_diss_hat_crit_val)
                 rate_dependent_strn_cntrld_AFM_exprmts_g_c.append(g_c_val)
-                rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu.append(
-                    g_c__nu_val)
                 rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit.append(
                     overline_epsilon_cnu_diss_hat_crit_val)
                 rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit.append(
                     overline_epsilon_c_diss_hat_crit_val)
                 rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c.append(
                     overline_g_c_val)
-                rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu.append(
-                    overline_g_c__nu_val)
             
             rate_dependent_strn_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_dependent_strn_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit)
@@ -1732,16 +1391,12 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_dependent_strn_cntrld_AFM_exprmts_epsilon_c_diss_hat_crit)
             rate_dependent_strn_cntrld_AFM_exprmts_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_dependent_strn_cntrld_AFM_exprmts_g_c)
-            rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu)
             rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit)
             rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit___nu_chunk_list_mpi_scatter.append(
                 rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit)
             rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list_mpi_scatter.append(
                 rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c)
-            rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list_mpi_scatter.append(
-                rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu)
         
         rate_dependent_strn_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_split = (
             self.comm.gather(
@@ -1756,11 +1411,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
         rate_dependent_strn_cntrld_AFM_exprmts_g_c___nu_chunk_list_mpi_split = (
             self.comm.gather(
                 rate_dependent_strn_cntrld_AFM_exprmts_g_c___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
-        rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list_mpi_scatter,
                 root=0)
         )
         rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_split = (
@@ -1778,11 +1428,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list_mpi_scatter,
                 root=0)
         )
-        rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list_mpi_split = (
-            self.comm.gather(
-                rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list_mpi_scatter,
-                root=0)
-        )
         
         self.comm.Barrier()
 
@@ -1792,20 +1437,16 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             rate_dependent_frc_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_list = []
             rate_dependent_frc_cntrld_AFM_exprmts_epsilon_c_diss_hat_crit___nu_chunk_list = []
             rate_dependent_frc_cntrld_AFM_exprmts_g_c___nu_chunk_list = []
-            rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list = []
             rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list = []
             rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit___nu_chunk_list = []
             rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list = []
-            rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list = []
 
             rate_dependent_strn_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_list = []
             rate_dependent_strn_cntrld_AFM_exprmts_epsilon_c_diss_hat_crit___nu_chunk_list = []
             rate_dependent_strn_cntrld_AFM_exprmts_g_c___nu_chunk_list = []
-            rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list = []
             rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list = []
             rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit___nu_chunk_list = []
             rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list = []
-            rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list = []
 
             for proc_indx in range(self.comm_size):
                 for nu_chunk_indx in range(cp.nu_num_list_mpi_split[proc_indx]):
@@ -1818,9 +1459,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     rate_dependent_frc_cntrld_AFM_exprmts_g_c___nu_chunk_val = (
                         rate_dependent_frc_cntrld_AFM_exprmts_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_val = (
-                        rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
                     rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_val = (
                         rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
@@ -1829,9 +1467,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     )
                     rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c___nu_chunk_val = (
                         rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
-                    rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_val = (
-                        rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
 
                     rate_dependent_strn_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_val = (
@@ -1843,9 +1478,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     rate_dependent_strn_cntrld_AFM_exprmts_g_c___nu_chunk_val = (
                         rate_dependent_strn_cntrld_AFM_exprmts_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_val = (
-                        rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
                     rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_val = (
                         rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
@@ -1855,9 +1487,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c___nu_chunk_val = (
                         rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
                     )
-                    rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_val = (
-                        rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list_mpi_split[proc_indx][nu_chunk_indx]
-                    )
 
                     rate_dependent_frc_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_list.append(
                         rate_dependent_frc_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_val)
@@ -1865,16 +1494,12 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                         rate_dependent_frc_cntrld_AFM_exprmts_epsilon_c_diss_hat_crit___nu_chunk_val)
                     rate_dependent_frc_cntrld_AFM_exprmts_g_c___nu_chunk_list.append(
                         rate_dependent_frc_cntrld_AFM_exprmts_g_c___nu_chunk_val)
-                    rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list.append(
-                        rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_val)
                     rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list.append(
                         rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_val)
                     rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit___nu_chunk_list.append(
                         rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit___nu_chunk_val)
                     rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list.append(
                         rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c___nu_chunk_val)
-                    rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list.append(
-                        rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_val)
 
                     rate_dependent_strn_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_list.append(
                         rate_dependent_strn_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_val)
@@ -1882,16 +1507,12 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                         rate_dependent_strn_cntrld_AFM_exprmts_epsilon_c_diss_hat_crit___nu_chunk_val)
                     rate_dependent_strn_cntrld_AFM_exprmts_g_c___nu_chunk_list.append(
                         rate_dependent_strn_cntrld_AFM_exprmts_g_c___nu_chunk_val)
-                    rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list.append(
-                        rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_val)
                     rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list.append(
                         rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_val)
                     rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit___nu_chunk_list.append(
                         rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_c_diss_hat_crit___nu_chunk_val)
                     rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list.append(
                         rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c___nu_chunk_val)
-                    rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list.append(
-                        rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_val)
             
             save_pickle_object(
                 self.savedir,
@@ -1906,10 +1527,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 data_file_prefix+"-rate_dependent_frc_cntrld_AFM_exprmts_g_c___nu_chunk_list")
             save_pickle_object(
                 self.savedir,
-                rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
                 rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list,
                 data_file_prefix+"-rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list")
             save_pickle_object(
@@ -1920,10 +1537,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 self.savedir,
                 rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
-                rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list")
             
             save_pickle_object(
                 self.savedir,
@@ -1938,10 +1551,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 data_file_prefix+"-rate_dependent_strn_cntrld_AFM_exprmts_g_c___nu_chunk_list")
             save_pickle_object(
                 self.savedir,
-                rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
                 rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list,
                 data_file_prefix+"-rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list")
             save_pickle_object(
@@ -1952,10 +1561,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 self.savedir,
                 rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list,
                 data_file_prefix+"-rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list")
-            save_pickle_object(
-                self.savedir,
-                rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list,
-                data_file_prefix+"-rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list")
 
     def finalization(self):
         """Define finalization analysis"""
@@ -2004,9 +1609,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             rate_independent_g_c___nu_chunk_list = load_pickle_object(
                 self.savedir,
                 data_file_prefix+"-rate_independent_g_c___nu_chunk_list")
-            rate_independent_g_c__nu___nu_chunk_list = load_pickle_object(
-                self.savedir,
-                data_file_prefix+"-rate_independent_g_c__nu___nu_chunk_list")
             rate_independent_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list = (
                 load_pickle_object(
                     self.savedir,
@@ -2020,11 +1622,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             rate_independent_overline_g_c___nu_chunk_list = load_pickle_object(
                 self.savedir,
                 data_file_prefix+"-rate_independent_overline_g_c___nu_chunk_list")
-            rate_independent_overline_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_independent_overline_g_c__nu___nu_chunk_list")
-            )
             
             rate_independent_LT_full_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_list = (
                 load_pickle_object(
@@ -2041,11 +1638,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     self.savedir,
                     data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_g_c___nu_chunk_list")
             )
-            rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_list")
-            )
             rate_independent_LT_full_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list = (
                 load_pickle_object(
                     self.savedir,
@@ -2061,31 +1653,16 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     self.savedir,
                     data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_overline_g_c___nu_chunk_list")
             )
-            rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_list")
-            )
 
             rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list = (
                 load_pickle_object(
                     self.savedir,
                     data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list")
             )
-            rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list")
-            )
             rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list = (
                 load_pickle_object(
                     self.savedir,
                     data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list")
-            )
-            rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list")
             )
 
             rate_independent_LT_quarter_zeta_nu_char_epsilon_cnu_sci_hat_crit___nu_chunk_list = (
@@ -2103,11 +1680,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     self.savedir,
                     data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_g_c___nu_chunk_list")
             )
-            rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_list = (
-                    load_pickle_object(
-                    self.savedir,
-                data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_list")
-            )
             rate_independent_LT_quarter_zeta_nu_char_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list = (
                 load_pickle_object(
                     self.savedir,
@@ -2123,31 +1695,16 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     self.savedir,
                     data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_overline_g_c___nu_chunk_list")
             )
-            rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_list")
-            )
 
             rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list = (
                 load_pickle_object(
                     self.savedir,
                     data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c___nu_chunk_list")
             )
-            rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list")
-            )
             rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list = (
                 load_pickle_object(
                     self.savedir,
                     data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list")
-            )
-            rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list")
             )
 
             rate_independent_beyer_2000_f_c_max_tau_b_epsilon_cnu_sci_hat_crit___nu_chunk_list = (
@@ -2165,11 +1722,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     self.savedir,
                     data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_g_c___nu_chunk_list")
             )
-            rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_list")
-            )
             rate_independent_beyer_2000_f_c_max_tau_b_overline_epsilon_cnu_sci_hat_crit___nu_chunk_list = (
                 load_pickle_object(
                     self.savedir,
@@ -2185,31 +1737,16 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     self.savedir,
                     data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c___nu_chunk_list")
             )
-            rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_list")
-            )
 
             rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_list = (
                 load_pickle_object(
                     self.savedir,
                     data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c___nu_chunk_list")
             )
-            rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list")
-            )
             rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_list = (
                 load_pickle_object(
                     self.savedir,
                     data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c___nu_chunk_list")
-            )
-            rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list")
             )
 
             rate_dependent_frc_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_list = (
@@ -2227,11 +1764,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     self.savedir,
                     data_file_prefix+"-rate_dependent_frc_cntrld_AFM_exprmts_g_c___nu_chunk_list")
             )
-            rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list")
-            )
             rate_dependent_frc_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list = (
                 load_pickle_object(
                     self.savedir,
@@ -2246,11 +1778,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 load_pickle_object(
                     self.savedir,
                     data_file_prefix+"-rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list")
-            )
-            rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list")
             )
 
             rate_dependent_strn_cntrld_AFM_exprmts_epsilon_cnu_diss_hat_crit___nu_chunk_list = (
@@ -2268,11 +1795,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                     self.savedir,
                     data_file_prefix+"-rate_dependent_strn_cntrld_AFM_exprmts_g_c___nu_chunk_list")
             )
-            rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list")
-            )
             rate_dependent_strn_cntrld_AFM_exprmts_overline_epsilon_cnu_diss_hat_crit___nu_chunk_list = (
                 load_pickle_object(
                     self.savedir,
@@ -2287,11 +1809,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
                 load_pickle_object(
                     self.savedir,
                     data_file_prefix+"-rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c___nu_chunk_list")
-            )
-            rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list = (
-                load_pickle_object(
-                    self.savedir,
-                    data_file_prefix+"-rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list")
             )
 
             # plot results
@@ -2665,56 +2182,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             fig = plt.figure()
             plt.loglog(
                 cp.nu_list,
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list,
-                linestyle=cp.LT_full_zeta_nu_char_linestyle,
-                color=cp.LT_full_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_full_zeta_nu_char_label)
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list,
-                linestyle=cp.LT_quarter_zeta_nu_char_linestyle,
-                color=cp.LT_quarter_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_quarter_zeta_nu_char_label)
-            for AFM_expermts_indx in cp.AFM_exprmts_indx_list:
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu_list = [
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list[nu_chunk_indx][AFM_expermts_indx]
-                    for nu_chunk_indx in range(cp.nu_num)
-                ]
-                plt.semilogx(
-                    cp.nu_list,
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu_list,
-                    linestyle=cp.beyer_2000_tau_b_linestyle_list[AFM_expermts_indx],
-                    color=cp.beyer_2000_tau_b_color_list[AFM_expermts_indx],
-                    alpha=1, linewidth=2.5,
-                    label=cp.beyer_2000_tau_b_label_list[AFM_expermts_indx])
-            plt.loglog(
-                cp.nu_list, rate_independent_g_c__nu___nu_chunk_list,
-                linestyle=cp.cufjc_linestyle, color=cp.cufjc_color,
-                alpha=1, linewidth=2.5, label=cp.cufjc_label)
-            for f_c_dot_indx in range(cp.f_c_dot_num):
-                rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu_list = [
-                    rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list[nu_chunk_indx][f_c_dot_indx]
-                    for nu_chunk_indx in range(cp.nu_num)
-                ]
-                plt.loglog(
-                    cp.nu_list,
-                    rate_dependent_frc_cntrld_AFM_exprmts_g_c__nu_list,
-                    linestyle=cp.f_c_dot_linestyle_list[f_c_dot_indx],
-                    color=cp.f_c_dot_color_list[f_c_dot_indx],
-                    alpha=1, linewidth=2.5,
-                    label=cp.f_c_dot_label_list[f_c_dot_indx])
-            # plt.legend(loc='best', fontsize=12)
-            # plt.ylim([-0.015, 1.015])
-            plt.yticks(fontsize=20)
-            plt.xticks(fontsize=20)
-            plt.grid(True, alpha=0.25)
-            save_current_figure(
-                self.savedir, r'$\nu$', 30, r'$g_c/\nu$', 30,
-                data_file_prefix+"-force-control-nondim-fracture-toughness-nu-normalized-vs-nu")
-            
-            fig = plt.figure()
-            plt.loglog(
-                cp.nu_list,
                 rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list,
                 linestyle=cp.LT_full_zeta_nu_char_linestyle,
                 color=cp.LT_full_zeta_nu_char_color, alpha=1, linewidth=2.5,
@@ -2761,57 +2228,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             save_current_figure(
                 self.savedir, r'$\nu$', 30, r'$\overline{g_c}$', 30,
                 data_file_prefix+"-force-control-nondim-scaled-fracture-toughness-vs-nu")
-            
-            fig = plt.figure()
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list,
-                linestyle=cp.LT_full_zeta_nu_char_linestyle,
-                color=cp.LT_full_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_overline_full_zeta_nu_char_label)
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list,
-                linestyle=cp.LT_quarter_zeta_nu_char_linestyle,
-                color=cp.LT_quarter_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_overline_quarter_zeta_nu_char_label)
-            for AFM_expermts_indx in cp.AFM_exprmts_indx_list:
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu_list = [
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list[nu_chunk_indx][AFM_expermts_indx]
-                    for nu_chunk_indx in range(cp.nu_num)
-                ]
-                plt.semilogx(
-                    cp.nu_list,
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu_list,
-                    linestyle=cp.beyer_2000_tau_b_linestyle_list[AFM_expermts_indx],
-                    color=cp.beyer_2000_tau_b_color_list[AFM_expermts_indx],
-                    alpha=1, linewidth=2.5,
-                    label=cp.beyer_2000_tau_b_overline_label_list[AFM_expermts_indx])
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_overline_g_c__nu___nu_chunk_list,
-                linestyle=cp.cufjc_linestyle, color=cp.cufjc_color,
-                alpha=1, linewidth=2.5, label=cp.cufjc_overline_label)
-            for f_c_dot_indx in range(cp.f_c_dot_num):
-                rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu_list = [
-                    rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list[nu_chunk_indx][f_c_dot_indx]
-                    for nu_chunk_indx in range(cp.nu_num)
-                ]
-                plt.loglog(
-                    cp.nu_list,
-                    rate_dependent_frc_cntrld_AFM_exprmts_overline_g_c__nu_list,
-                    linestyle=cp.f_c_dot_linestyle_list[f_c_dot_indx],
-                    color=cp.f_c_dot_color_list[f_c_dot_indx],
-                    alpha=1, linewidth=2.5,
-                    label=cp.f_c_dot_overline_label_list[f_c_dot_indx])
-            # plt.legend(loc='best', fontsize=12)
-            # plt.ylim([-0.015, 1.015])
-            plt.yticks(fontsize=20)
-            plt.xticks(fontsize=20)
-            plt.grid(True, alpha=0.25)
-            save_current_figure(
-                self.savedir, r'$\nu$', 30, r'$\overline{g_c}/\nu$', 30,
-                data_file_prefix+"-force-control-nondim-scaled-fracture-toughness-nu-normalized-vs-nu")
             
             fig = plt.figure()
             fig_legend = plt.figure()
@@ -3149,56 +2565,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             fig = plt.figure()
             plt.loglog(
                 cp.nu_list,
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list,
-                linestyle=cp.LT_full_zeta_nu_char_linestyle,
-                color=cp.LT_full_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_full_zeta_nu_char_label)
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list,
-                linestyle=cp.LT_quarter_zeta_nu_char_linestyle,
-                color=cp.LT_quarter_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_quarter_zeta_nu_char_label)
-            for AFM_expermts_indx in cp.AFM_exprmts_indx_list:
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu_list = [
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list[nu_chunk_indx][AFM_expermts_indx]
-                    for nu_chunk_indx in range(cp.nu_num)
-                ]
-                plt.semilogx(
-                    cp.nu_list,
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu_list,
-                    linestyle=cp.beyer_2000_tau_b_linestyle_list[AFM_expermts_indx],
-                    color=cp.beyer_2000_tau_b_color_list[AFM_expermts_indx],
-                    alpha=1, linewidth=2.5,
-                    label=cp.beyer_2000_tau_b_label_list[AFM_expermts_indx])
-            plt.loglog(
-                cp.nu_list, rate_independent_g_c__nu___nu_chunk_list,
-                linestyle=cp.cufjc_linestyle, color=cp.cufjc_color,
-                alpha=1, linewidth=2.5, label=cp.cufjc_label)
-            for r_nu_dot_indx in range(cp.r_nu_dot_num):
-                rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu_list = [
-                    rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu___nu_chunk_list[nu_chunk_indx][r_nu_dot_indx]
-                    for nu_chunk_indx in range(cp.nu_num)
-                ]
-                plt.loglog(
-                    cp.nu_list,
-                    rate_dependent_strn_cntrld_AFM_exprmts_g_c__nu_list,
-                    linestyle=cp.r_nu_dot_linestyle_list[r_nu_dot_indx],
-                    color=cp.r_nu_dot_color_list[r_nu_dot_indx],
-                    alpha=1, linewidth=2.5,
-                    label=cp.r_nu_dot_label_list[r_nu_dot_indx])
-            # plt.legend(loc='best', fontsize=12)
-            # plt.ylim([-0.015, 1.015])
-            plt.yticks(fontsize=20)
-            plt.xticks(fontsize=20)
-            plt.grid(True, alpha=0.25)
-            save_current_figure(
-                self.savedir, r'$\nu$', 30, r'$g_c/\nu$', 30,
-                data_file_prefix+"-displacement-control-nondim-fracture-toughness-nu-normalized-vs-nu")
-            
-            fig = plt.figure()
-            plt.loglog(
-                cp.nu_list,
                 rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list,
                 linestyle=cp.LT_full_zeta_nu_char_linestyle,
                 color=cp.LT_full_zeta_nu_char_color, alpha=1, linewidth=2.5,
@@ -3245,56 +2611,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             save_current_figure(
                 self.savedir, r'$\nu$', 30, r'$\overline{g_c}$', 30,
                 data_file_prefix+"-displacement-control-nondim-scaled-fracture-toughness-vs-nu")
-            
-            fig = plt.figure()
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list,
-                linestyle=cp.LT_full_zeta_nu_char_linestyle,
-                color=cp.LT_full_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_overline_full_zeta_nu_char_label)
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list,
-                linestyle=cp.LT_quarter_zeta_nu_char_linestyle,
-                color=cp.LT_quarter_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_overline_quarter_zeta_nu_char_label)
-            for AFM_expermts_indx in cp.AFM_exprmts_indx_list:
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu_list = [
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list[nu_chunk_indx][AFM_expermts_indx]
-                    for nu_chunk_indx in range(cp.nu_num)
-                ]
-                plt.semilogx(
-                    cp.nu_list,
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu_list,
-                    linestyle=cp.beyer_2000_tau_b_linestyle_list[AFM_expermts_indx],
-                    color=cp.beyer_2000_tau_b_color_list[AFM_expermts_indx],
-                    alpha=1, linewidth=2.5,
-                    label=cp.beyer_2000_tau_b_overline_label_list[AFM_expermts_indx])
-            plt.loglog(
-                cp.nu_list, rate_independent_overline_g_c__nu___nu_chunk_list,
-                linestyle=cp.cufjc_linestyle, color=cp.cufjc_color,
-                alpha=1, linewidth=2.5, label=cp.cufjc_overline_label)
-            for r_nu_dot_indx in range(cp.r_nu_dot_num):
-                rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu_list = [
-                    rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu___nu_chunk_list[nu_chunk_indx][r_nu_dot_indx]
-                    for nu_chunk_indx in range(cp.nu_num)
-                ]
-                plt.loglog(
-                    cp.nu_list,
-                    rate_dependent_strn_cntrld_AFM_exprmts_overline_g_c__nu_list,
-                    linestyle=cp.r_nu_dot_linestyle_list[r_nu_dot_indx],
-                    color=cp.r_nu_dot_color_list[r_nu_dot_indx],
-                    alpha=1, linewidth=2.5,
-                    label=cp.r_nu_dot_overline_label_list[r_nu_dot_indx])
-            # plt.legend(loc='best', fontsize=12)
-            # plt.ylim([-0.015, 1.015])
-            plt.yticks(fontsize=20)
-            plt.xticks(fontsize=20)
-            plt.grid(True, alpha=0.25)
-            save_current_figure(
-                self.savedir, r'$\nu$', 30, r'$\overline{g_c}/\nu$', 30,
-                data_file_prefix+"-displacement-control-nondim-scaled-fracture-toughness-nu-normalized-vs-nu")
             
             fig = plt.figure()
             if cp.f_c_dot_num == cp.r_nu_dot_num:
@@ -3504,63 +2820,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             fig = plt.figure()
             plt.loglog(
                 cp.nu_list,
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list,
-                linestyle=cp.inext_gaussian_A_nu_linestyle,
-                color=cp.LT_full_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_full_zeta_nu_char_label)
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_full_zeta_nu_char_g_c__nu___nu_chunk_list,
-                linestyle=cp.cufjc_A_nu_linestyle,
-                color=cp.LT_full_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_full_zeta_nu_char_label)
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_g_c__nu___nu_chunk_list,
-                linestyle=cp.inext_gaussian_A_nu_linestyle,
-                color=cp.LT_quarter_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_quarter_zeta_nu_char_label)
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_quarter_zeta_nu_char_g_c__nu___nu_chunk_list,
-                linestyle=cp.cufjc_A_nu_linestyle,
-                color=cp.LT_quarter_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_quarter_zeta_nu_char_label)
-            for AFM_expermts_indx in cp.AFM_exprmts_indx_list:
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu_list = [
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu___nu_chunk_list[nu_chunk_indx][AFM_expermts_indx]
-                    for nu_chunk_indx in range(cp.nu_num)
-                ]
-                rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu_list = [
-                    rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu___nu_chunk_list[nu_chunk_indx][AFM_expermts_indx]
-                    for nu_chunk_indx in range(cp.nu_num)
-                ]
-                plt.semilogx(
-                    cp.nu_list,
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_g_c__nu_list,
-                    linestyle=cp.inext_gaussian_A_nu_linestyle,
-                    color=cp.beyer_2000_tau_b_color_list[AFM_expermts_indx],
-                    alpha=1, linewidth=2.5,
-                    label=cp.beyer_2000_tau_b_label_list[AFM_expermts_indx])
-                plt.semilogx(
-                    cp.nu_list,
-                    rate_independent_beyer_2000_f_c_max_tau_b_g_c__nu_list,
-                    linestyle=cp.cufjc_A_nu_linestyle,
-                    color=cp.beyer_2000_tau_b_color_list[AFM_expermts_indx],
-                    alpha=1, linewidth=2.5,
-                    label=cp.beyer_2000_tau_b_label_list[AFM_expermts_indx])
-            # plt.legend(loc='best', fontsize=12)
-            # plt.ylim([-0.015, 1.015])
-            plt.yticks(fontsize=20)
-            plt.xticks(fontsize=20)
-            plt.grid(True, alpha=0.25)
-            save_current_figure(
-                self.savedir, r'$\nu$', 30, r'$g_c/\nu$', 30,
-                data_file_prefix+"-A_nu-cufjc-igc-comparison-nondim-fracture-toughness-nu-normalized-vs-nu")
-            
-            fig = plt.figure()
-            plt.loglog(
-                cp.nu_list,
                 rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c___nu_chunk_list,
                 linestyle=cp.inext_gaussian_A_nu_linestyle,
                 color=cp.LT_full_zeta_nu_char_color, alpha=1, linewidth=2.5,
@@ -3614,63 +2873,6 @@ class FractureToughnessCharacterizer(CompositeuFJCScissionCharacterizer):
             save_current_figure(
                 self.savedir, r'$\nu$', 30, r'$\overline{g_c}$', 30,
                 data_file_prefix+"-A_nu-cufjc-igc-comparison-nondim-scaled-fracture-toughness-vs-nu")
-            
-            fig = plt.figure()
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_full_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list,
-                linestyle=cp.inext_gaussian_A_nu_linestyle,
-                color=cp.LT_full_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_full_zeta_nu_char_label)
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_full_zeta_nu_char_overline_g_c__nu___nu_chunk_list,
-                linestyle=cp.cufjc_A_nu_linestyle,
-                color=cp.LT_full_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_full_zeta_nu_char_label)
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_quarter_zeta_nu_char_inext_gaussian_overline_g_c__nu___nu_chunk_list,
-                linestyle=cp.inext_gaussian_A_nu_linestyle,
-                color=cp.LT_quarter_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_quarter_zeta_nu_char_label)
-            plt.loglog(
-                cp.nu_list,
-                rate_independent_LT_quarter_zeta_nu_char_overline_g_c__nu___nu_chunk_list,
-                linestyle=cp.cufjc_A_nu_linestyle,
-                color=cp.LT_quarter_zeta_nu_char_color, alpha=1, linewidth=2.5,
-                label=cp.LT_quarter_zeta_nu_char_label)
-            for AFM_expermts_indx in cp.AFM_exprmts_indx_list:
-                rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu_list = [
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu___nu_chunk_list[nu_chunk_indx][AFM_expermts_indx]
-                    for nu_chunk_indx in range(cp.nu_num)
-                ]
-                rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu_list = [
-                    rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu___nu_chunk_list[nu_chunk_indx][AFM_expermts_indx]
-                    for nu_chunk_indx in range(cp.nu_num)
-                ]
-                plt.semilogx(
-                    cp.nu_list,
-                    rate_independent_beyer_2000_f_c_max_tau_b_inext_gaussian_overline_g_c__nu_list,
-                    linestyle=cp.inext_gaussian_A_nu_linestyle,
-                    color=cp.beyer_2000_tau_b_color_list[AFM_expermts_indx],
-                    alpha=1, linewidth=2.5,
-                    label=cp.beyer_2000_tau_b_label_list[AFM_expermts_indx])
-                plt.semilogx(
-                    cp.nu_list,
-                    rate_independent_beyer_2000_f_c_max_tau_b_overline_g_c__nu_list,
-                    linestyle=cp.cufjc_A_nu_linestyle,
-                    color=cp.beyer_2000_tau_b_color_list[AFM_expermts_indx],
-                    alpha=1, linewidth=2.5,
-                    label=cp.beyer_2000_tau_b_label_list[AFM_expermts_indx])
-            # plt.legend(loc='best', fontsize=12)
-            # plt.ylim([-0.015, 1.015])
-            plt.yticks(fontsize=20)
-            plt.xticks(fontsize=20)
-            plt.grid(True, alpha=0.25)
-            save_current_figure(
-                self.savedir, r'$\nu$', 30, r'$\overline{g_c}/\nu$', 30,
-                data_file_prefix+"-A_nu-cufjc-igc-comparison-nondim-scaled-fracture-toughness-nu-normalized-vs-nu")
 
 
 if __name__ == '__main__':
